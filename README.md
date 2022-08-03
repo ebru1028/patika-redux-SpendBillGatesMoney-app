@@ -1,0 +1,1 @@
+# patika-redux-SpendBillGatesMoney-app
