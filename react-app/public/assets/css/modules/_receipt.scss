@@ -1,0 +1,66 @@
+.receipt{
+    margin-bottom: 10px;
+
+  .wrapper {
+    width: 100%;
+    max-width: 1000px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-color: #fff;
+
+    .inner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content{
+            display: block;
+            max-width: 290px;
+            width: 100%;
+            text-align: center;
+
+            h3{
+                font-size: 26px;
+                font-weight: 700;
+                margin-bottom: 25px;
+            }
+
+            table{
+                width: 100%;
+                tbody tr td{
+                    padding: 8px 25px 8px 0px;
+                    text-align: left;
+                    &.price{
+                        color: #24c486;
+                        font-size: 18px;
+                        text-align: right;
+                        padding-right: 0 !important;
+                    }
+                }
+            }
+
+           .black-line{
+                width: 100%;
+                border-top: 1px solid #333;
+            }
+
+            .total-price{
+                display: flex;
+                justify-content: space-between;
+                padding:10px 0;
+
+                .title{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                .price{
+                    color: #24c486;
+                    font-size: 16px;
+                }
+            }
+
+        }
+    }
+  }
+}

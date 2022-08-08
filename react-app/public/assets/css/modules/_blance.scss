@@ -1,0 +1,28 @@
+.blance {
+    margin-bottom: 10px;
+
+    .wrapper {
+      width: 100%;
+      max-width: 1000px;
+      padding: 30px 20px;
+      margin: 0 auto;
+      background-color: #2ecc71;
+      background: linear-gradient(180deg,#2ecc71,#1abc9c);
+     
+      .inner {
+          width: 100%;
+          text-align: center;
+          margin: 10px 0;
+           
+          .many{
+              font-weight: 700;
+              font-size: 32px;
+              color: #fff;
+
+              @include md {
+                font-size: 25px;
+              }
+          }
+      }
+      }
+  }

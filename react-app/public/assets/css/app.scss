@@ -1,0 +1,65 @@
+/* BREAKPOINTS START */
+
+$screen-sm-max: 576px;
+
+$screen-md-max: 768px;
+
+$screen-lg-max: 1200px;
+
+@mixin sm {
+    @media (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: #{$screen-md-max}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (max-width: #{$screen-lg-max}) {
+        @content;
+    }
+}
+
+@mixin rwd($screen) {
+    @media (max-width: $screen + 'px') {
+        @content;
+    }
+}
+
+/* BREAKPOINTS END */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.clearfix {zoom: 1}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;        
+}
+
+@import 'modules/_profile-info';
+
+@import 'modules/_blance';
+
+@import 'modules/products';
+
+@import 'modules/receipt';
+
+
+
+
+
+

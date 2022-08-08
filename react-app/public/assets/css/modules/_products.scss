@@ -1,0 +1,99 @@
+.products{
+    margin-bottom: 10px;
+
+  .wrapper {
+    width: 100%;
+    max-width: 1010px;
+    margin: 0 auto;
+   
+    .cards {
+        width: 100%;
+        flex-wrap: wrap;
+
+        .item{
+            border: none;
+            padding: 5px 5px;
+            width: 33.33%;
+            display: inline-flex;
+            justify-content: center;
+           
+            @include md{
+                width: 100%;
+            }
+
+            .inner{
+                background-color: #fff;
+                padding: 20px 15px;
+                display: block;
+                width: 100%;
+               
+                text-align: center;
+
+                img{
+                    max-height: 120px;
+                    margin: 15px auto;
+                    }
+        
+                .title{
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-bottom: 0px;
+                }
+        
+                .price{
+                    font-size: 20px;
+                    color: #24c486;
+                }
+        
+                .controls{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+        
+                    .btn-sell{
+                        background-color: #f1f2f6;
+                        color: #333;
+                        cursor: pointer;
+                        padding: 10px 12px;
+                        border-radius: 3px;
+                       
+                        border: none;
+                        font-weight: 700;
+                        max-width: 92px;
+                        width: 100%;
+
+                        &.active{
+                            background: linear-gradient(180deg,#f53b82,#f53b57);
+                            color: #fff;
+                        }
+                    }
+        
+                    .piece{
+                        padding: 9px 12px;
+                       border-radius: 3px;
+                       border: 1px solid #b2bec3;
+                       color: #333;
+                       max-width: 92px;
+                       width: 100%;
+                       text-align: center;
+                    }
+        
+                    .btn-buy{
+                        background: linear-gradient(180deg,#2ecc71,#1abc9c);
+                        cursor: pointer;
+                        padding: 10px 12px;
+                        border-radius: 3px;
+                        color: #fff;
+                        border: none;
+                        font-weight: 700;
+                        max-width: 92px;
+                        width: 100%;
+                    }
+                }
+
+            }
+      
+        }
+        
+    }}
+}
