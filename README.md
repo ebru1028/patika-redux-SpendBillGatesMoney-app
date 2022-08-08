@@ -1,3 +1,3 @@
-# patika-redux-SpendBillGatesMoney-app
+# Patika-Redux-SpendBillGatesMoney-App
 
 Patika Profile : https://app.patika.dev/ebrutezel
